@@ -88,3 +88,11 @@ Regiões e Availability Zones
     - Os Savings Plans são um modelo de precificação flexível que oferece preços baixos no uso do EC2 e Fargate, em troca de um compromisso com uma quantidade consistente de uso (medido em USD/hora) por um período de 1 ou 3 anos.
   - Host dedicados
     - Um host dedicado é um servidor físico do EC2 dedicado exclusivamente ao seu uso. Os hosts dedicados ajudam você a reduzir custos, permitindo que você use licenças existentes de software vinculadas ao servidor, incluindo Windows Server, SQL Server e SUSE Linux Enterprise Server (sujeito aos termos das suas licenças), além de ajudar a cumprir requisitos de conformidade.
+
+## Amazon EBS
+
+- O que é o Elastic Block Store (Amazon EBS)?
+  - O Amazon Elastic Block Store (Amazon EBS) é um serviço de armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o Amazon Elastic Compute Cloud (Amazon EC2).
+
+- Tipos de volumes do Amazon EBS
+  - O Amazon EBS fornece vários tipos de volume que permitem otimizar o desempenho e o custo do armazenamento para uma ampla variedade de aplicativos. Esses tipos de volume estão divididos em duas categorias principais: armazenamento baseado em **SSD** para workloads transacionais, como bancos de dados, desktops virtuais e volumes de inicialização e armazenamento baseado em **HDD** para cargas de trabalho com taxa de transferência intensa, como MapReduce e processamento de logs.
