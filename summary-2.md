@@ -96,3 +96,24 @@ Regiões e Availability Zones
 
 - Tipos de volumes do Amazon EBS
   - O Amazon EBS fornece vários tipos de volume que permitem otimizar o desempenho e o custo do armazenamento para uma ampla variedade de aplicativos. Esses tipos de volume estão divididos em duas categorias principais: armazenamento baseado em **SSD** para workloads transacionais, como bancos de dados, desktops virtuais e volumes de inicialização e armazenamento baseado em **HDD** para cargas de trabalho com taxa de transferência intensa, como MapReduce e processamento de logs.
+
+## Amazon Elastic Load Balancing
+
+- Como funciona
+  - O Elastic Load Balancing (ELB) distribui automaticamente o tráfego de aplicações de entrada entre vários destinos e dispositivos virtuais em uma ou mais Zonas de disponibilidade (AZs). Há várias maneiras para começar a usar o Elastic Load Balancing. Você pode configurar um Application Load Balancer, Network Load Balancer ou Gateway Load Balancer usando as APIs, as Command Line Interfaces (CLIs – Interfaces de linha de comando) da AWS ou o Console de Gerenciamento da AWS.
+
+O uso do Elastic Load Balancing com Auto Scaling permite criar aplicações altamente disponíveis e tolerantes a falhas com escalabilidade automática de capacidade de acordo com as variações de demanda.
+
+- Application Load Balancer
+  - O Application Load Balancer opera no nível da solicitação (camada 7), roteando o tráfego para destinos (instâncias do EC2, contêineres, endereços IP e funções do Lambda) com base no conteúdo da solicitação. Ideal para balanceamento de carga avançado de tráfego HTTP e HTTPS, o Application Load Balancer fornece roteamento de solicitação avançado direcionado à entrega de arquiteturas de aplicativos modernos, incluindo microsserviços e aplicativos baseados em contêiner. O Application Load Balancer simplifica e melhora a segurança do seu aplicativo, garantindo que as cifras e protocolos SSL/TLS mais recentes sejam usados o tempo todo.
+
+- Network Load Balancer
+  - O Network Load Balancer opera no nível de conexão (camada 4), roteando conexões para destinos (instâncias do Amazon EC2, microsserviços e contêineres) dentro da Amazon VPC, com base nos dados do protocolo IP. Ideal para balanceamento de carga de tráfego TCP e UDP, o Network Load Balancer é capaz de lidar com milhões de solicitações por segundo, mantendo latências ultrabaixas. O Network Load Balancer é otimizado para lidar com padrões de tráfego repentinos e voláteis ao usar um único endereço IP estático por zona de disponibilidade. Ele é integrado a outros serviços populares da AWS, como Auto Scaling, Amazon EC2 Container Service (ECS), Amazon CloudFormation e AWS Certificate Manager (ACM).
+
+- Gateway Load Balancer
+  - O Gateway Load Balancer ajuda você a implantar, dimensionar e gerenciar facilmente seus dispositivos virtuais de terceiros. Ele oferece um gateway para distribuir o tráfego entre vários dispositivos virtuais enquanto os dimensiona para cima ou para baixo, com base na demanda. Isso diminui os pontos potenciais de falha em sua rede e aumenta a disponibilidade.
+
+  - Você pode encontrar, testar e comprar dispositivos virtuais de fornecedores terceirizados diretamente no AWS Marketplace. Essa experiência integrada agiliza o processo de implantação para que você veja o valor de seus dispositivos virtuais mais rapidamente, seja para continuar trabalhando com seus fornecedores atuais ou tentar algo novo.
+
+- Classic Load Balancer
+  - O Classic Load Balancer fornece balanceamento de carga básico em várias instâncias do Amazon EC2 e opera tanto no nível de solicitação quanto no nível de conexão. O Classic Load Balancer destina-se a aplicativos criados na rede EC2-Classic. Recomendamos o Application Load Balancer para tráfego de camada 7 e o Network Load Balancer para tráfego de camada 4 ao usar a Virtual Private Cloud (VPC).
