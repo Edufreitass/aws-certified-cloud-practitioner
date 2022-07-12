@@ -7,7 +7,7 @@ O que é Cloud Computing
 - O que é a computação em nuvem?
   - A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS).
 
-- Que usa a computação em nuvem?
+- Quem usa a computação em nuvem?
   - Organizações de todos os tipos, portes e setores usam a nuvem para uma grande variedade de casos de uso, como backup de dados, recuperação de desastres, e-mail, desktops virtuais, desenvolvimento e teste de software, análises de big data e aplicativos web voltados ao cliente. Por exemplo, as empresas do setor de saúde usam a nuvem para desenvolver tratamentos mais personalizados para os pacientes. Empresas de serviços financeiros usam a nuvem como base para detectar e prevenir fraudes em tempo real. E fabricantes de videogames usam a nuvem para entregar jogos online para milhões de jogadores em todo o mundo.
  
 ## Vantagens
@@ -117,3 +117,28 @@ O uso do Elastic Load Balancing com Auto Scaling permite criar aplicações alta
 
 - Classic Load Balancer
   - O Classic Load Balancer fornece balanceamento de carga básico em várias instâncias do Amazon EC2 e opera tanto no nível de solicitação quanto no nível de conexão. O Classic Load Balancer destina-se a aplicativos criados na rede EC2-Classic. Recomendamos o Application Load Balancer para tráfego de camada 7 e o Network Load Balancer para tráfego de camada 4 ao usar a Virtual Private Cloud (VPC).
+
+## Amazon EC2 Auto Scaling
+
+Adicione ou remova capacidade de computação para atender às mudanças na demanda
+
+- O que é o AWS Auto Scaling?
+  - O AWS Auto Scaling é um novo serviço da AWS para ajudar a otimizar o desempenho de aplicativos e reduzir custos de infraestrutura por meio da escalabilidade fácil e segura de vários recursos da AWS. O serviço simplifica a experiência de escalabilidade, permitindo escalar coleções de recursos relacionados usados por um aplicativo com apenas alguns cliques. O AWS Auto Scaling ajuda a configurar políticas de escalabilidade consistentes e congruentes em toda a pilha de infraestrutura usada por um aplicativo. O AWS Auto Scaling escala automaticamente os recursos conforme a necessidade para cumprir a estratégia de escalabilidade selecionada. Assim, você pode manter o desempenho e pagar apenas pelos recursos realmente necessários.
+
+- Quais os benefícios do AWS Auto Scaling?
+
+O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os custos dos aplicativos.
+
+  - **Configure rapidamente a escalabilidade**: o AWS Auto Scaling oferece uma experiência unificada de escalabilidade para todos os recursos escaláveis usados pelos aplicativos. É possível ver a utilização média de todos os recursos escaláveis e definir rapidamente os níveis pretendidos de utilização para cada grupo de recursos semelhantes em uma interface simples e intuitiva.
+  - **Tome decisões de escalabilidade com inteligência**: o AWS Auto Scaling permite automatizar a forma como recursos diferentes respondem às alterações de demanda. Estratégias de escalabilidade fáceis de compreender permitem priorizar disponibilidade, custos ou um equilíbrio ente os dois. O AWS Auto Scaling cria automaticamente todas as políticas de escalabilidade e define objetivos de acordo com sua preferência.
+  - **Mantenha automaticamente o desempenho**: o AWS Auto Scaling monitora continuamente os recursos subjacentes dos aplicativos para garantir que operem nos níveis de performance desejados. Quando ocorrem picos de demanda, o AWS Auto Scaling aumenta automaticamente a capacidade dos recursos restritos para manter uma alta qualidade de serviço.
+  - **Estime os custos e evite gastos desnecessários**: o AWS Auto Scaling pode ajudar a otimizar as eficiências de utilização e custo do consumo de serviços da AWS. Assim, você paga apenas pelos recursos realmente necessários. Quando a demanda cai, o AWS Auto Scaling remove automaticamente toda a capacidade excessiva de recursos, evitando gastos desnecessários.
+
+- Quando devo usar o AWS Auto Scaling?
+  - Você deve usar o AWS Auto Scaling para aplicativos que usam um ou mais recursos escaláveis e estão sujeitos a cargas variáveis. Um bom exemplo seria um aplicativo web de comércio eletrônico que recebe tráfego variável durante o dia. O aplicativo segue uma arquitetura padrão de três camadas: o Elastic Load Balancing distribui o tráfego recebido, o Amazon EC2 é a camada de computação e o DynamoDB é a camada de dados. Neste caso, o AWS Auto Scaling escalará um ou mais grupos do EC2 Auto Scaling e tabelas do DynamoDB usados pelo aplicativo para responder à curva de demanda.
+
+- Como posso começar a usar o AWS Auto Scaling?
+  - O AWS Auto Scaling permite a seleção de aplicativos de acordo com tags de recursos ou com pilhas do AWS CloudFormation. Com apenas alguns cliques, é possível criar um plano de escalabilidade para um aplicativo. Esse plano define como cada um dos recursos usados pelo aplicativo será escalado. Para cada recurso, o AWS Auto Scaling cria uma política de escalabilidade de rastreamento direcionada com a métrica mais popular para esse tipo de recurso e mantém essa métrica em um valor direcionado para a estratégia de escalabilidade selecionada. Para definir os valores das métricas de recursos, você pode optar entre três recomendações de escalabilidade predefinidas que otimizam disponibilidade, otimizam custos ou equilibram esses dois critérios. Ou, se preferir, você pode definir seus próprios valores pretendidos. Além disso, o AWS Auto Scaling define automaticamente os valores mínimo e máximo dos recursos.
+
+- Leitura complementar
+  - [Top 5 AWS Auto Scaling Strategies](https://www.missioncloud.com/blog/top-five-aws-auto-scaling-strategies)
