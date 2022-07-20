@@ -142,3 +142,15 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 
 - Leitura complementar
   - [Top 5 AWS Auto Scaling Strategies](https://www.missioncloud.com/blog/top-five-aws-auto-scaling-strategies)
+
+## Amazon Simple Storage Service (S3)
+
+- O que é o Amazon S3?
+  - O Amazon S3 é um armazenamento de objetos criado para armazenar e recuperar qualquer quantidade de dados de qualquer local na Internet. Ele é um serviço de armazenamento simples que oferece uma infraestrutura de armazenamento de dados com escalabilidade infinita a um custo bastante reduzido.
+
+- O que posso fazer com o Amazon S3?
+  - O Amazon S3 disponibiliza uma interface de serviço da Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Com esse web service, os desenvolvedores podem criar facilmente aplicativos que usam armazenamento na Internet. Como o Amazon S3 é altamente escalável e você só paga pelo que usa, é possível começar com um porte reduzido e expandir o aplicativo da forma desejada, sem comprometer o desempenho ou a confiabilidade.
+  - O Amazon S3 também foi concebido para ser altamente flexível. Armazene qualquer tipo ou volume de dados que você necessite, leia a mesma porção de dados um milhão de vezes ou apenas para a recuperação de desastres em casos de emergência, crie uma aplicação FTP simples ou um aplicativo da Web avançado semelhante ao site de vendas da Amazon.com. O Amazon S3 permite que os desenvolvedores se concentrem na inovação e não em descobrir como armazenar dados.
+
+- Qual quantidade de dados é possível armazenar no Amazon S3?
+  - O volume total de dados e o número de objetos que você pode armazenar são ilimitados. Objetos individuais do Amazon S3 podem variar em tamanho, desde um mínimo de 0 byte até um máximo de 5 terabytes. O tamanho do maior objeto que pode ser carregado em um único PUT é 5 gigabytes. Para objetos maiores do que 100 megabytes, os clientes devem considerar utilizar o recurso de multipart upload .
