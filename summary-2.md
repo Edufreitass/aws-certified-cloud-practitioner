@@ -181,3 +181,28 @@ Você pode começar a usar a rede de entrega de conteúdo em questão de minutos
 
 - Grandes bibliotecas e ativos de mídia
   - À medida que a infraestrutura de rede global cresceu e melhorou, a retenção de cache surgiu como um contribuinte essencial para o desempenho. A rede de entrega de conteúdo (CDN) é arquitetada para manter os objetos por mais tempo no cache e para reduzir a rotatividade de cache. Técnicas como cache hierárquico e otimização de deduplicação de objetos no cache ajudam a maximizar a retenção de cache.
+
+## AWS Billing
+
+- Como funciona
+  - A página do AWS Bills oferece uma exibição mensal de seus custos passíveis de cobrança. Para períodos de faturamento mensal que ainda não foram encerrados, a página do Bills exibirá as cobranças estimadas mais recentes com base nos serviços medidos até o momento. As faturas são geradas quando um período de cobrança mensal é encerrado ou quando assinaturas ou compras únicas são efetuadas. Para usuários do AWS Organizations, os usuários conectados à conta de gerenciamento podem visualizar cobranças consolidadas para todas as contas-membro, com detalhes em nível de conta disponíveis na guia “Charges by account” (Cobranças por conta). A página do AWS Bills fornece detalhes de serviços prestados pela AWS e compras feitas no AWS Marketplace. Para usuários do AWS Billing Conductor, a página do AWS Bills oferece dados pro forma para contas-membro e contas principais de um grupo de faturamento. As contas de gerenciamento podem alternar entre visualizações de dados faturáveis e pro forma.
+
+Casos de uso
+
+- Fácil acesso aos dados
+  - A página do AWS Bills está disponível para todas as contas da AWS, sem necessidade de outras configurações. Você pode encontrar facilmente faturas e dados de faturamento desde o início da conta, permitindo análises ou auditorias de histórico.
+
+- Reconcilie faturas com dados de faturamento detalhados
+  - Visualize um resumo do total de cobranças por período de faturamento mensal, recupere PDFs de faturas e arquivos CSV com dados complementares e analise os detalhes para entender como suas cobranças são calculadas, se os custos são cobrados por solicitação de API, instância-hora ou GB-mês.
+
+- Faturamento consolidado
+  - Use o recurso de faturamento consolidado do AWS Organizations para combinar todas as suas contas-membro em uma conta de gerenciamento e receber uma única fatura.
+
+- CapEx vs OpEx em Computação em Nuvem
+  - O cenário de TI empresarial mudou rapidamente na última nuvem, com as organizações optando pelas vantagens da relação aos data centers locais. Com essa mudança, as empresas estão vendo um aumento no OpEx e uma redução no CapEx. O que essa mudança significa para o seu negócio? 
+
+  - Despesas de capital (CapEx): 
+    - É o gasto inicial de dinheiro (todos juntos) em infraestrutura física e, em seguida, deduzindo essa despesa inicial ao longo do tempo. O custo inicial do CapEx tem um valor que reduz ao longo do tempo. Todas as despesas incorridas para benefícios de prazos no futuro estão sob CapEx.
+
+  - Despesas Operacionais (OpEx): 
+    - É como um serviço de pagamento conforme o uso. Você pode deduzir esta despesa no mesmo ano em que a gastar. Não há custo inicial, pois você paga por um serviço ou produto à medida que o usa. É como o nome sugere, a operação diária.
