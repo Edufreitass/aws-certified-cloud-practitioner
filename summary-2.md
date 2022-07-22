@@ -154,3 +154,16 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 
 - Qual quantidade de dados é possível armazenar no Amazon S3?
   - O volume total de dados e o número de objetos que você pode armazenar são ilimitados. Objetos individuais do Amazon S3 podem variar em tamanho, desde um mínimo de 0 byte até um máximo de 5 terabytes. O tamanho do maior objeto que pode ser carregado em um único PUT é 5 gigabytes. Para objetos maiores do que 100 megabytes, os clientes devem considerar utilizar o recurso de multipart upload .
+
+- Quais categorias de armazenamento o Amazon S3 oferece?
+  - O Amazon S3 oferece uma ampla variedade de classes de armazenamento para diferentes casos de uso. Elas incluem S3 Standard, para armazenamento geral de dados acessados com frequência, S3 Intelligent-Tiering, para dados com padrões de acesso desconhecido ou dinâmico, S3 Standard-Infrequent Access (S3 Standard – IA) e S3 One Zone-Infrequent Access (S3 One Zone – IA) para dados de longa vida, mas acessados com menos frequência e Amazon S3 Glacier (S3 Glacier) e Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive) para preservação digital e arquivamento de dados de longo prazo. Você pode saber mais sobre essas classes de armazenamento na página Classes de armazenamento do Amazon S3.
+
+- Qual a confiabilidade do Amazon S3?
+  - O Amazon S3 concede a todos os desenvolvedores o acesso para a mesma infraestrutura de armazenamento de dados altamente escalável, disponível, rápida e econômica usada pela Amazon para operar a sua própria rede global de sites. As classes de armazenamento S3 Standard, S3 Standard – IA e S3 One Zone – IA foram projetadas para oferecer respectivamente 99,99%, 99,9% e 99,5% de disponibilidade, enquanto as classes S3 Glacier e S3 Glacier Deep Archive foram projetadas para oferecer 99,99% de disponibilidade e SLA de 99,9%. Todas essas classes de armazenamento são amparadas pelo Acordo de nível de serviço do Amazon S3.
+
+- O que a Amazon faz com meus dados no Amazon S3?
+  - A Amazon armazenará os dados e controlará o uso associado para efeitos de cobrança. A Amazon não acessará seus dados para nenhuma outra finalidade que não seja a da oferta do Amazon S3, exceto quando exigido por lei. Consulte o Acordo de licenciamento da Amazon Web Services para obter mais detalhes.
+
+- Como os dados do Amazon S3 são organizados?
+  - O Amazon S3 é um simples depósito de objetos com base em chave. Ao armazenar os dados, você atribui uma chave de objeto exclusiva que posteriormente pode ser usada para recuperar os dados. As chaves podem ser qualquer string, e podem ser construídas para imitar atributos hierárquicos. Como alternativa, você pode usar o S3 Object Tagging para organizar dados em todos os buckets e/ou prefixos do S3.
+
