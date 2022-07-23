@@ -206,3 +206,11 @@ Casos de uso
 
   - Despesas Operacionais (OpEx): 
     - É como um serviço de pagamento conforme o uso. Você pode deduzir esta despesa no mesmo ano em que a gastar. Não há custo inicial, pois você paga por um serviço ou produto à medida que o usa. É como o nome sugere, a operação diária.
+
+## AWS Budgets - Orçamento -> alerta 80% ($ 500/mensal) (antes)
+
+- O Orçamentos da AWS permite que você defina orçamentos personalizados para rastrear seu custo e uso, desde os casos de uso mais simples aos mais complexos. Com o Orçamentos da AWS, você pode escolher ser alertado por e-mail ou notificação SNS quando o custo real ou previsto e o uso excederem o limite do seu orçamento ou quando a utilização ou a cobertura reais de seus Savings Plans e RI cair abaixo do limite desejado.
+
+## AWS Cost Explorer - Relatório billing (depois)
+
+- O Explorador de Custos da AWS tem uma interface fácil de usar que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Comece a usar rapidamente criando relatórios personalizados que analisam dados de custos e uso. Analise dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalhe os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.
