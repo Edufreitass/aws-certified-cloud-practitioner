@@ -311,3 +311,36 @@ Esse modelo de responsabilidade compartilhada entre o cliente e a AWS também se
 **Específicos do cliente**: controles que são de responsabilidade exclusiva do cliente com base no aplicativo implantado nos serviços da AWS. Os exemplos incluem:
 
 - Proteção ou zona de segurança de serviços e comunicação, que pode exigir que o cliente roteie dados para ambientes de segurança específicos.
+
+## AWS WAF & AWS Shield
+
+**AWS WAF**
+
+O **AWS WAF** é um firewall de aplicações Web que ajuda a proteger suas aplicações Web ou APIs contra bots e exploits comuns na Web que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos em excesso. O AWS WAF oferece controle sobre como o tráfego atinge suas aplicações, permitindo que você crie regras de segurança que controlam o tráfego de bots e bloqueiam padrões de ataque comuns, como injeção de SQL ou cross-site scripting. Você também pode personalizar regras que filtram padrões de tráfego específicos. Você pode começar rapidamente usando regras gerenciadas para o AWS WAF, um conjunto pré-configurado de regras gerenciadas pela AWS ou por vendedores do AWS Marketplace para resolver problemas como os dez principais riscos de segurança e bots automatizados do OWASP que consomem recursos em excesso, distorcem métricas ou podem causar um tempo de inatividade. Essas regras são atualizadas regularmente conforme surgem novos problemas. O AWS WAF inclui uma API multifuncional que você pode usar para automatizar a criação, a implantação e a manutenção de regras de segurança.
+
+Você pode implantar o AWS WAF no Amazon CloudFront como parte de uma solução de CDN, no Application Load Balancer que faz frente aos servidores Web ou de origem executados no EC2, no Amazon API Gateway para suas APIs REST ou no AWS AppSync para suas APIs GraphQL. Com o AWS WAF, você paga apenas pelo que usar e o preço é baseado em quantas regras você implanta e quantas solicitações da Web sua aplicação recebe.
+
+**AWS SHIELD**
+
+O **AWS Shield** é um serviço gerenciado de proteção contra DDoS (Negação de serviço distribuída) que protege os aplicativos executados na AWS. O AWS Shield oferece de detecção e mitigações em linha automáticas e sempre ativas que minimizam o tempo de inatividade e a latência dos aplicativos, fornecendo proteção contra DDoS sem necessidade de envolver o AWS Support. O AWS Shield tem dois níveis, Standard e Advanced.
+
+Todos os clientes da AWS se beneficiam gratuitamente com as proteções automáticas do AWS Shield Standard. O AWS Shield Standard protege contra os ataques de DDoS mais comuns, que ocorrem com frequência nas camadas de rede e transporte e visam sites ou aplicativos web. Ao usar o AWS Shield Standard com o Amazon CloudFront e o Amazon Route 53, você recebe uma proteção abrangente de disponibilidade contra todos os ataques conhecidos de infraestrutura (camadas 3 e 4).
+
+Para obter níveis mais altos de proteção contra ataques direcionados a seus aplicativos executados em recursos do Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator e Amazon Route 53, você pode inscrever-se no AWS Shield Advanced. Além das proteções nas camadas de rede e transporte fornecidas com a versão Standard, o AWS Shield Advanced fornece detecção e mitigação adicionais contra ataques grandes e sofisticados de DDoS, visibilidade praticamente em tempo real aos ataques e integração ao AWS WAF, um firewall para aplicação Web. Além disso, o AWS Shield Advanced oferece acesso 24 horas, 7 dias na semana, ao AWS Shield Response Team (SRT) e proteção contra picos relacionados a DDoS em suas taxas do Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator e Amazon Route 53.
+
+O AWS Shield Advanced está disponível globalmente em todos os locais da borda do Amazon CloudFront, AWS Global Accelerator e Amazon Route 53. Você pode proteger suas aplicações Web hospedadas em qualquer lugar do mundo implantando o Amazon CloudFront na frente de sua aplicação. Os servidores de origem podem ser o Amazon Simple Storage Service (S3), Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB) ou um servidor personalizado fora da AWS. Você também pode ativar o AWS Shield Advanced diretamente no Elastic Load Balancing ou no Amazon EC2 nas seguintes regiões da AWS: Norte da Virgínia, Ohio, Oregon, Norte da Califórnia, Montreal, São Paulo, Irlanda, Frankfurt, Londres, Paris, Estocolmo, Singapura, Tóquio, Sydney, Seul, Mumbai, Milão e Cidade do Cabo.
+
+## AWS Security Services
+
+**AWS INSPECTOR**
+
+O Amazon Inspector é um serviço automatizado de gerenciamento de vulnerabilidade que verifica continuamente as workloads da AWS em busca de vulnerabilidades de software e exposição não intencional à rede.
+
+**AWS TRUSTED ADVISOR**
+
+O AWS Trusted Advisor faz recomendações que ajudam você a seguir as práticas recomendadas da AWS. O Trusted Advisor avalia a sua conta por meio de verificações. Essas verificações identificam formas de otimizar sua infraestrutura da AWS, aumentar a segurança e o desempenho, reduzir os custos gerais e monitorar as cotas do serviço. Depois, você pode seguir as recomendações da verificação para otimizar seus recursos e serviços.
+Os clientes do AWS Basic Support e do AWS Developer Support podem acessar as principais verificações de segurança e todas verificações de cotas de serviço. Os clientes do AWS Business Support e do AWS Enterprise Support podem acessar todas as verificações, incluindo otimizações de custo, segurança, tolerâncias a falhas, desempenho e cotas de serviço. Para obter uma lista completa de verificações e descrições, consulte as Práticas recomendadas do Trusted Advisor.
+
+**CLOUD TRAIL**
+
+O AWS CloudTrail monitora e registra a atividade da conta por toda a infraestrutura da AWS, oferecendo controle sobre o armazenamento, análise e ações de remediação.
