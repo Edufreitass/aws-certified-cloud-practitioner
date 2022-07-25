@@ -214,3 +214,28 @@ Casos de uso
 ## AWS Cost Explorer - Relatório billing (depois)
 
 - O Explorador de Custos da AWS tem uma interface fácil de usar que permite visualizar, entender e gerenciar os custos e o uso da AWS ao longo do tempo. Comece a usar rapidamente criando relatórios personalizados que analisam dados de custos e uso. Analise dados de forma resumida (por exemplo, custos e uso totais em todas as contas) ou detalhe os dados de custos e uso para identificar tendências, determinar causadores de custos e detectar anomalias.
+
+## AWS Plans
+
+Na AWS, queremos que você seja bem-sucedido. Nossos planos de suporte foram criados para oferecer a combinação correta de ferramentas e acesso ao conhecimento. Dessa forma, você pode ter sucesso com a AWS e otimizar a performance, gerenciar os riscos e manter o controle sobre os custos.
+
+O suporte básico está incluído para todos os clientes da AWS e oferece:
+
+- **Atendimento ao cliente e comunidades**: acesso ao atendimento ao cliente, documentação, whitepapers e ao AWS re:Post 24 horas por dia, 7 dias por semana.
+- **AWS Trusted Advisor**: acesso às principais verificações do Trusted Advisor e orientações para provisionar seus recursos de acordo com as práticas recomendadas para aumentar a performance e aprimorar a segurança.
+- **AWS Personal Health Dashboard**: uma visualização personalizada da integridade dos serviços da AWS e envio de alertas quando seus recursos forem afetados.
+
+## AWS Organizations
+
+O AWS Organizations ajuda você a gerenciar e controlar seu ambiente de maneira centralizada à medida que os negócios e seus recursos da AWS expandem. Usando o AWS Organizations, você pode criar novas contas da AWS e alocar recursos, agrupar contas para organizar seus fluxos de trabalho, aplicar políticas a contas ou grupos para governança e simplificar o faturamento usando um único método de pagamento para todas as suas contas.
+
+Além disso, o AWS Organizations é integrado a outros serviços da AWS para que você possa definir configurações centrais, mecanismos de segurança, requisitos de auditoria e compartilhamento de recursos entre contas na sua organização. O AWS Organizations está disponível para todos os clientes da AWS sem custos adicionais.
+
+## AWS Pricing Calculator
+
+Configure uma estimativa de custo exclusivo que atenda às suas necessidades de negócios ou pessoais com produtos e serviços da AWS.
+
+- Como funciona?
+  - Adicione o serviço que você deseja calcular
+  - Configure o serviço adicionado
+  - Visualize o total da estimativa
