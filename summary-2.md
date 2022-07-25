@@ -239,3 +239,75 @@ Configure uma estimativa de custo exclusivo que atenda às suas necessidades de 
   - Adicione o serviço que você deseja calcular
   - Configure o serviço adicionado
   - Visualize o total da estimativa
+
+## AWS Compliance (Conformidade)
+
+O programa de conformidade da AWS permite que nossos clientes compreendam os controles robustos estabelecidos na AWS para manter a segurança e a proteção de dados. A integração de recursos de serviços com foco em governança e de fácil auditoria a padrões de auditoria ou conformidade aplicáveis permite que os habilitadores de conformidade da AWS aproveitem os programas tradicionais, ajudando clientes a se estabelecerem e operarem em um ambiente de controle de segurança da AWS.
+
+Os padrões de TI com os quais estamos em conformidade são divididos por certificados e declarações; leis, regulamentos e privacidade; e alinhamentos e frameworks. Certificações e declarações de conformidade avaliadas por um auditor independente terceirizado e que resultam em uma certificação, um relatório de auditoria ou uma declaração de conformidade. Os clientes da AWS permanecem responsáveis pela conformidade com os programas de privacidade e com as leis e os regulamentos de conformidade aplicáveis. Os alinhamentos e as estruturas de trabalho de conformidade incluem requisitos publicados de segurança ou conformidade para um propósito específico, como um determinado setor ou função.
+
+## AWS Artifact
+
+**O QUE É O AWS ARTIFACT?**
+
+O AWS Artifact, disponível no console, é um portal de autoatendimento para recuperação de artefatos de auditoria que oferece aos clientes acesso sob demanda à documentação de conformidade e aos acordos da AWS.
+
+Você pode usar os relatórios do AWS Artifact para fazer download de documentos de segurança e conformidade, como os relatórios de certificações ISO, Payment Card Industry (PCI – Setor de cartões de pagamento) e Organization Control (SOC – Controles de sistema e organização).
+
+Você pode usar o AWS Artifact Agreements para examinar, aceitar e acompanhar o status de acordos da AWS como o Business Associate Addendum (BAA – Adendo de associado comercial).
+
+**QUEM TEM ACESSO AO AWS ARTIFACT?**
+
+Todas as contas da AWS têm acesso ao AWS Artifact. Os usuários raiz e do IAM com permissões de administrador podem fazer o download de todos os artefatos de auditoria disponíveis na conta concordando com os termos e condições associados.
+
+Será necessário conceder aos usuários do IAM permissões de acesso não administrativas para o AWS Artifact usando as permissões do IAM. Com isso, você poderá conceder a um usuário o acesso ao AWS Artifact e restringir o acesso a outros serviços e recursos da conta da AWS. Para obter informações sobre como conceder acesso usando o IAM, consulte esse tópico de ajuda na documentação do AWS Artifact.
+
+**COMO PERMITO QUE OUTROS USUÁRIOS ACESSEM O AWS ARTIFACT AGREEMENTS?**
+
+Sua conta administrativa tem todas as permissões necessárias para usar o AWS Artifact. No entanto, documentos e acordos diferentes podem exigir a delegação de permissões distintas para diversos usuários. Você pode delegar permissões usando as políticas do IAM.
+
+**O QUE É UM ARTEFATO DE AUDITORIA?**
+
+Um artefato de auditoria é um elemento de evidência que demonstra que uma organização segue um processo documentado ou cumpre um requisito específico. Os artefatos de auditoria são coletados e arquivados ao longo do ciclo de vida de desenvolvimento de um sistema e servem como evidência em auditorias e avaliações internas e/ou externas.
+
+No momento, o AWS Artifact oferece aos clientes relatórios e acordos que podem ser usados como artefatos de auditoria.
+
+**COMO FAÇO PARA COMPARTILHAR ARTEFATOS DE AUDITORIA COM OS AUDITORES?**
+
+Muitas vezes, será necessário que os auditores tenham acesso aos relatórios de conformidade da AWS. Você pode fazer isso facilmente criando credenciais de usuário do IAM específicas para cada auditor, configurando-as para limitar o acesso aos relatórios relevantes para a auditoria conduzida pelo auditor. Para obter mais informações, veja este tópico de ajuda na documentação do AWS Artifact.
+
+**COMO POSSO USAR ESSES ARTEFATOS PARA CUMPRIR REQUISITOS DE AUDITORIA?**
+
+Você pode fornecer os artefatos de auditoria da AWS aos auditores ou reguladores como evidência dos controles de segurança da AWS.
+
+Além disso, é possível usar a orientação sobre responsabilidades fornecida por alguns artefatos de auditoria da AWS para projetar a arquitetura de nuvem. Essa orientação ajuda a determinar os controles de segurança adicionais que devem ser implantados para apoiar casos de uso específicos do sistema.
+
+**EXISTE UM LIMITE PARA O NÚMERO DE ARTEFATOS QUE POSSO OBTER POR DOWNLOAD?**
+
+Não. Você pode acessar e fazer o download de todos os artefatos a qualquer momento, tantas vezes quanto precisar.
+
+## AWS Shared Responsibility Model
+
+![image](https://user-images.githubusercontent.com/56324728/180885525-cddfc412-cf17-4c5b-acbe-5f001ad550bc.png)
+
+Segurança e conformidade constituem uma responsabilidade compartilhada entre a AWS e o cliente. Esse modelo compartilhado pode auxiliar a reduzir os encargos operacionais do cliente à medida que a AWS opera, gerencia e controla os componentes do sistema operacional do host e a camada de virtualização, até a segurança física das instalações em que o serviço opera. O cliente assume a gestão e a responsabilidade pelo sistema operacional convidado (inclusive atualizações e patches de segurança), por outros softwares de aplicativos associados e pela configuração do firewall do grupo de segurança fornecido pela AWS. Os clientes devem examinar cuidadosamente os serviços que escolherem, pois suas respectivas responsabilidades variam de acordo com os serviços utilizados; a integração desses serviços ao seu ambiente de TI e as leis e regulamentos aplicáveis. A natureza dessas responsabilidades compartilhadas também oferece a flexibilidade e o controle do cliente necessários para a implantação. Como pode ser visto no gráfico abaixo, esta distinção entre responsabilidades é denominada normalmente como segurança “da” nuvem versus segurança “na” nuvem.
+
+**Responsabilidade da AWS**: “segurança da nuvem”: a AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na Nuvem AWS. Essa infraestrutura é composta por hardware, software, redes e instalações que executam os Serviços de nuvem AWS.
+
+**Responsabilidade do cliente**: “segurança na nuvem”: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele. Isso determina a quantidade de operações de configuração que o cliente deverá executar como parte de suas responsabilidades de segurança. Por exemplo, um serviço como o Amazon Elastic Compute Cloud (Amazon EC2) é categorizado como Infrastructure as a Service (IaaS – Infraestrutura como serviço) e, dessa forma, exige que o cliente execute todas as tarefas necessárias de configuração e gerenciamento da segurança. Os clientes que implantam uma instância do Amazon EC2 são responsáveis pelo gerenciamento do sistema operacional convidado (o que inclui atualizações e patches de segurança), por qualquer utilitário ou software de aplicativo instalado pelo cliente nas instâncias, bem como pela configuração do firewall disponibilizado pela AWS (chamado de grupo de segurança) em cada instância. Para serviços abstraídos, como o Amazon S3 e o Amazon DynamoDB, a AWS opera a camada de infraestrutura, o sistema operacional e as plataformas, e os clientes acessam os endpoints para armazenar e recuperar dados. Os clientes são responsáveis por gerenciar os dados deles (o que inclui opções de criptografia), classificando os ativos e usando as ferramentas de IAM para aplicar as permissões apropriadas.
+
+Esse modelo de responsabilidade compartilhada entre o cliente e a AWS também se estende aos controles de TI. Assim como a responsabilidade para operar o ambiente de TI é compartilhada entre a AWS e os seus clientes, o mesmo ocorre com o gerenciamento, a operação e a verificação de controles compartilhados de TI. A AWS pode auxiliar a reduzir os encargos operacionais de controles do cliente gerenciando os controles associados à infraestrutura física implementada no ambiente da AWS que anteriormente eram gerenciados pelo cliente. Já que cada cliente é implantado de forma diferente na AWS, os clientes podem aproveitar a transferência do gerenciamento de determinados controles de TI para a AWS, resultando em um (novo) ambiente de controle distribuído. Os clientes podem usar a documentação sobre controle e conformidade da AWS para executar seus procedimentos de avaliação e verificação de controle, conforme for necessário. Veja abaixo exemplos de controles gerenciados pela AWS, por clientes da AWS e/ou por ambos.
+
+**Controles herdados**: controles que um cliente herda completamente da AWS.
+
+- Controles físicos e ambientais
+
+**Controles compartilhados**: controles que se aplicam à camada de infraestrutura e às camadas do cliente, mas em perspectivas ou contextos totalmente distintos. Em um controle compartilhado, a AWS disponibiliza os requisitos de infraestrutura e o cliente deve disponibilizar sua própria implementação de controles dentro do uso de Serviços da AWS. Os exemplos incluem:
+
+- Gerenciamento de patches: a AWS é responsável pela aplicação de patches e pela correção de falhas na infraestrutura, mas os clientes são responsáveis pela aplicação de patches em seu SO convidado e nos seus aplicativos.
+- Gerenciamento de configuração: a AWS mantém a configuração dos dispositivos de infraestrutura, mas o cliente é responsável pela configuração dos seus próprios bancos de dados, aplicativos e sistemas operacionais convidados.
+- Conhecimentos e treinamento: a AWS treina funcionários da AWS, mas o cliente deve treinar seus próprios funcionários.
+
+**Específicos do cliente**: controles que são de responsabilidade exclusiva do cliente com base no aplicativo implantado nos serviços da AWS. Os exemplos incluem:
+
+- Proteção ou zona de segurança de serviços e comunicação, que pode exigir que o cliente roteie dados para ambientes de segurança específicos.
