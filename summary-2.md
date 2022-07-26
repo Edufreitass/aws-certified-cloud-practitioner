@@ -376,3 +376,19 @@ O Amazon Macie usa machine learning e correspondência de padrões para descobri
 **Qual é o custo do Amazon Macie?**
 
 Com o Amazon Macie, a cobrança é realizada em duas dimensões, os números de buckets do Amazon S3 na sua conta por mês e a quantidade de dados processados para a descoberta de dados confidenciais em determinado mês. Consulte a página de definição de preço do Amazon Macie, para obter informações de definição de preço atualizadas.
+
+## AWS CloudFormation
+
+- O que é o AWS CloudFormation?
+  - O AWS CloudFormation é um serviço que fornece aos desenvolvedores e empresas uma forma fácil de criar um conjunto de recursos relacionados da AWS e de terceiros para provisioná-los e gerenciá-los de forma organizada e previsível.
+
+- Como funciona?
+  - O AWS CloudFormation permite modelar, provisionar e gerenciar recursos da AWS e de terceiros ao tratar a infraestrutura como código.
+
+- Benefícios:
+  - Definição de Infraestrutura como Código
+  - Fácil Automação e Implantação
+  - Controle de Dependências
+  - Versionamento da Arquitetura
+  - Reuso de Soluções Completas
+  - Composição de Soluções
