@@ -89,6 +89,12 @@ O IAM é um serviço da AWS oferecido sem custo adicional.
 - Casos de uso
   - Com o IAM, você pode gerenciar as permissões da AWS para usuários e workloads do quadro de funcionários. Para usuários do quadro de funcionários, recomendamos que você use o AWS Single Sign-On (AWS SSO) para gerenciar o acesso a contas da AWS e permissões dentro dessas contas. O SSO da AWS torna mais fácil provisionar e gerenciar funções e políticas do IAM em sua organização da AWS. Para permissões de workloads, use funções e políticas do IAM e conceda apenas o acesso necessário para suas workloads.
 
+- Políticas e permissões no IAM
+  - Você gerencia o acesso na AWS criando políticas e anexando-as às identidades do IAM (usuários, grupos de usuários ou funções) ou aos recursos da AWS. Uma política é um objeto na AWS que, quando associado a uma identidade ou um recurso, define suas permissões. A AWS avalia essas políticas quando uma entidade de segurança do IAM (usuário ou função) faz uma solicitação. As permissões nas políticas determinam se a solicitação será permitida ou negada. A maioria das políticas são armazenadas na AWS como documentos JSON. A AWS oferece suporte a seis tipos de políticas: políticas baseadas em identidade, políticas baseadas em recurso, limites de permissões, SCPs do Organizations, ACLs e políticas de sessão.
+  - As políticas do IAM definem permissões para uma ação, independentemente do método usado para executar a operação. Por exemplo, se uma política permitir a ação **GetUser**, um usuário com essa política poderá obter informações de usuários no AWS Management Console, na AWS CLI ou na API da AWS. Ao criar um usuário do IAM, você pode optar por permitir acesso ao console ou programático. Se o acesso ao console for permitido, o usuário do IAM poderá fazer login no console usando um nome de usuário e senha. Ou se o acesso programático for permitido, o usuário poderá usar as chaves de acesso para trabalhar com a CLI ou a API.
+
+Para obter mais informações, acesse a [documentação oficial](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access_policies.html) sobre AWS Identity and Access Management.
+
 ## Amazon EC2
 
 - O que é o Amazon Elastic Compute Cloud (Amazon EC2)?
