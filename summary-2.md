@@ -135,6 +135,20 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
       sed "s/EC2ID/$EC2ID/" /var/www/html/index.txt > /var/www/html/index.html
       ```
 
+## AWS Batch
+
+- O que é o AWS Batch?
+  - O AWS Batch é um conjunto de capacidades de gerenciamento de lote que permite a desenvolvedores, cientistas e engenheiros executar com facilidade e eficiência centenas de milhares de trabalhos de computação em lote na AWS. O AWS Batch provisiona dinamicamente a quantidade e o tipo ideais de recursos de computação (p. ex., recursos de computação otimizados para CPU ou memória) com base nos requisitos de volume e de recursos específicos dos trabalhos em lote enviados. Com o AWS Batch, não é necessário instalar e gerenciar clusters de servidores ou software de computação em lote, permitindo que você se concentre em analisar resultados e solucionar problemas. O AWS Batch planeja, programa e executa suas cargas de trabalho de computação em lote usando o Amazon EC2 (disponível com instâncias spot) e recursos de computação da AWS com o AWS Fargate ou Fargate Spot.
+
+- O que é computação em lote?
+  - A computação em lotes é a execução de uma série de programas (“trabalhos”) em um ou mais computadores sem intervenção manual. Os parâmetros de entrada são predefinidos por meio de scripts, argumentos de linha de comando, arquivos de controle ou linguagem de controle de trabalhos. Um determinado trabalho em lotes pode depender da conclusão de trabalhos anteriores ou da disponibilidade de determinadas entradas. Com isso, a sequência e a programação de vários trabalhos passam a ser importantes, inviabilizando o processamento interativo.
+
+- Quais são os benefícios da computação em lotes?
+  - Permite deslocar o período de processamento de trabalhos para horários com disponibilidade de capacidade mais ou menos cara.
+  - Evita recursos de computação ociosos, com intervenção e supervisão manuais frequentes.
+  - Aumenta a eficiência promovendo maior utilização dos recursos de computação.
+  - Ela também permite priorizar trabalhos, alinhando a alocação de recursos aos objetivos empresariais.
+
 ## Amazon EBS
 
 - O que é o Elastic Block Store (Amazon EBS)?
