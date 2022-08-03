@@ -203,6 +203,17 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 - Leitura complementar
   - [Top 5 AWS Auto Scaling Strategies](https://www.missioncloud.com/blog/top-five-aws-auto-scaling-strategies)
 
+## Amazon Elastic Container Service (Amazon ECS)
+
+- O que é o Amazon Elastic Container Service?
+  - O Amazon Elastic Container Service (ECS) é um serviço de gerenciamento de contêineres altamente escalável e de alta performance com suporte a contêineres do Docker, o que permite executar facilmente aplicações em um cluster gerenciado de instâncias do Amazon Elastic Compute Cloud (Amazon EC2). O Amazon ECS elimina a necessidade de instalar, operar e alterar a escala de sua própria infraestrutura de gerenciamento de clusters. Com chamadas de API simples, você pode executar e interromper aplicações habilitadas para contêiner, consultar o estado completo do seu cluster e acessar muitos recursos familiares, como grupos de segurança, Elastic Load Balancing, volumes do Amazon Elastic Block Store (EBS) e funções do Identity Access Management (IAM). Utilize o Amazon ECS para programar a colocação de contêineres no cluster com base em suas necessidades de recursos e requisitos de disponibilidade. Você também pode integrar agendadores próprios ou de terceiros para atender a requisitos específicos dos negócios ou da aplicação.
+
+- Por que devo usar o Amazon ECS?
+  - O Amazon ECS facilita a utilização de contêineres como um bloco de construção para as suas aplicações, eliminando a necessidade de você instalar, operar e dimensionar sua própria infraestrutura de gerenciamento de cluster. O Amazon ECS permite programar aplicações, serviços e processos de lotes de longa duração usando contêineres Docker. O Amazon ECS mantém a disponibilidade da aplicação e permite expandir ou reduzir seus contêineres para atender aos requisitos de capacidade da aplicação. O Amazon ECS é integrado a recursos familiares como Elastic Load Balancing, volumes do EBS, Amazon Virtual Private Cloud (VPC) e IAM. APIs simples permitem integrar e usar seus próprios agendadores ou conectar o Amazon ECS a seu processo atual de distribuição de software.
+
+- Qual é a diferença entre o Amazon ECS e o AWS Lambda?
+  - O Amazon ECS é um serviço de gerenciamento de contêineres do Docker altamente escalável que permite executar e gerenciar aplicativos distribuídos em contêineres do Docker. O AWS Lambda é um serviço de computação de tarefas orientadas por eventos que executa seu código em resposta a “eventos”, como mudanças em dados, cliques em sites ou mensagens de outros Serviços da AWS sem necessidade de gerenciamento de qualquer infraestrutura de computação.
+
 ## Amazon Simple Storage Service (S3)
 
 - O que é o Amazon S3?
