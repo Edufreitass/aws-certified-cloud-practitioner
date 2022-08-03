@@ -97,8 +97,18 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
 
 ## Amazon EC2
 
+- O que é virtualização?
+  - É uma tecnologia que permite criar serviços de TI valiosos usando recursos que estão tradicionalmente vinculados a um determinado hardware. Com a virtualização, é possível usar a capacidade total de uma máquina física, distribuindo seus recursos entre muitos usuários ou ambientes. ([Saiba mais](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization))
+
 - O que é o Amazon Elastic Compute Cloud (Amazon EC2)?
   - O Amazon Elastic Compute Cloud (Amazon EC2) é um serviço da web que fornece capacidade computacional redimensionável na nuvem. Ele foi projetado para facilitar a computação em escala na Web para os desenvolvedores.
+
+- Vantagens:
+  - Controle
+  - _Security_
+  - AWS Services
+  - _Low Cost_
+  - _Uncomplicated_
 
 - Tipos de planos e valores
   - Nível gratuito
