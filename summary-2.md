@@ -122,6 +122,19 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
   - Host dedicados
     - Um host dedicado é um servidor físico do EC2 dedicado exclusivamente ao seu uso. Os hosts dedicados ajudam você a reduzir custos, permitindo que você use licenças existentes de software vinculadas ao servidor, incluindo Windows Server, SQL Server e SUSE Linux Enterprise Server (sujeito aos termos das suas licenças), além de ajudar a cumprir requisitos de conformidade.
 
+- Bônus:
+  - Criando uma Instancia com User Data:
+      ```bash
+      #!/bin/bash
+      yum update -y
+      yum install -y httpd
+      systemctl start httpd
+      systemctl enable httpd
+      EC2ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+      echo '<center><h1>Este WebServer está LIVE: EC2ID </h1></center>' > /var/www/html/index.txt
+      sed "s/EC2ID/$EC2ID/" /var/www/html/index.txt > /var/www/html/index.html
+      ```
+
 ## Amazon EBS
 
 - O que é o Elastic Block Store (Amazon EBS)?
