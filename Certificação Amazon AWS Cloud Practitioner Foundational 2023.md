@@ -106,6 +106,10 @@ O AWS Wavelength permite aos desenvolvedores criar aplicativos com latências in
 
 O AWS Outposts leva serviços, infraestrutura e modelos operacionais nativos da AWS a praticamente qualquer datacenter, espaço de co-location ou instalações no local. Você pode usar as mesmas APIs, ferramentas e infraestrutura da AWS no local e na Nuvem AWS para oferecer uma experiência híbrida verdadeiramente consistente. O AWS Outposts foi projetado para ambientes conectados e pode ser usado para oferecer suporte a workloads que precisam permanecer on-premises devido à baixa latência ou atender a necessidades de processamento de dados locais.
 
+![image](https://user-images.githubusercontent.com/56324728/231602994-cdbc1a06-47b1-479e-8a3b-f1c40d5e0254.png)
+
+![image](https://user-images.githubusercontent.com/56324728/231602968-fa026de3-6111-4175-a76e-61584f4f955f.png)
+
 ## AWS IAM
 
 O AWS Identity and Access Management (IAM) fornece controle de acesso refinado em toda a AWS. Com o IAM, é possível especificar quem pode acessar quais serviços e recursos e em que condições. Com as políticas do IAM, você gerencia permissões para seu quadro de funcionários e sistemas para garantir permissões com privilégios mínimos.
