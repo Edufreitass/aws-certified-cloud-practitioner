@@ -10,6 +10,8 @@ O que é Cloud Computing
 - Quem usa a computação em nuvem?
   - Organizações de todos os tipos, portes e setores usam a nuvem para uma grande variedade de casos de uso, como backup de dados, recuperação de desastres, e-mail, desktops virtuais, desenvolvimento e teste de software, análises de big data e aplicativos web voltados ao cliente. Por exemplo, as empresas do setor de saúde usam a nuvem para desenvolver tratamentos mais personalizados para os pacientes. Empresas de serviços financeiros usam a nuvem como base para detectar e prevenir fraudes em tempo real. E fabricantes de videogames usam a nuvem para entregar jogos online para milhões de jogadores em todo o mundo.
  
+![image](https://user-images.githubusercontent.com/56324728/231313073-92a2172e-27de-4ad0-b305-6aae395681d6.png)
+ 
 ## Vantagens
 
 Benefícios da computação em nuvem
@@ -27,6 +29,10 @@ Benefícios da computação em nuvem
 - Implantação global em questão de minutos
   - Com a nuvem, você pode ampliar as atividades para novas regiões geográficas e implantar globalmente em minutos. Por exemplo, a AWS tem infraestrutura em todo o mundo, o que permite que você implante aplicativos em vários locais físicos com apenas alguns cliques. Aproximar os aplicativos dos usuários finais reduz a latência e melhora a experiência desses usuários.
 
+![image](https://user-images.githubusercontent.com/56324728/231313426-46f2a584-424b-4394-b45b-2e278e624773.png)
+
+![image](https://user-images.githubusercontent.com/56324728/231313500-d6416483-44e5-464f-a0f5-b3d2095bdd0a.png)
+
 ## Cloud Types
 
 Diferentes Tipos de Cloud
@@ -39,6 +45,10 @@ Diferentes Tipos de Cloud
 
 - Software como serviço (SaaS)
   - O SaaS oferece um produto completo, executado e gerenciado pelo provedor de serviços. Na maioria dos casos, quando as pessoas mencionam SaaS, estão falando de aplicativos de usuários finais (como e-mail baseado na web). Com uma oferta de SaaS, você não precisa pensar sobre a manutenção do serviço ou o gerenciamento da infraestrutura subjacente. Você só precisa se preocupar sobre como utilizará esse software específico.
+
+![image](https://user-images.githubusercontent.com/56324728/231312696-72ac883b-edc7-4d79-8557-f693ef3b74b7.png)
+
+![image](https://user-images.githubusercontent.com/56324728/231313107-3008335c-82b7-469d-951f-19918b227a40.png)
 
 ## Cloud Deployments
 
@@ -463,3 +473,13 @@ Com o Amazon Macie, a cobrança é realizada em duas dimensões, os números de 
   - Versionamento da Arquitetura
   - Reuso de Soluções Completas
   - Composição de Soluções
+
+### Referências
+
+[AWS Certified Cloud Practitioner](https://aws.amazon.com/pt/certification/certified-cloud-practitioner/)
+
+[AWS Certified Cloud Practitioner (CLF-C01) Guia do exame](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+
+[Benefícios da AWS Cloud Computing](https://aws.amazon.com/pt/application-hosting/benefits/)
+
+[As seis vantagens da computação em nuvem](https://docs.aws.amazon.com/pt_br/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
