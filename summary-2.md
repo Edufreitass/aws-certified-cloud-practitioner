@@ -64,6 +64,10 @@ Diferentes Tipos de Cloud
 - Private Cloud (On-premise)
   - Data Center com gerenciamento local
 
+![image](https://user-images.githubusercontent.com/56324728/231314019-b2275fd3-389a-40cd-9992-0aab80618ab0.png)
+
+![image](https://user-images.githubusercontent.com/56324728/231314214-56ef23b8-4ab0-4831-b6f0-638bc3a123d5.png)
+
 ## AWS Services
 
 [Lista de Serviços AWS](https://aws.amazon.com/pt/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
