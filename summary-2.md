@@ -1,5 +1,7 @@
 # Certificação Amazon AWS Cloud Practitioner
 
+![image](https://user-images.githubusercontent.com/56324728/231598555-af4b02dd-f7d4-443b-9b20-11d84bacf752.png)
+
 ## Cloud Computing?
 
 O que é Cloud Computing
@@ -86,9 +88,19 @@ Regiões e Availability Zones
 - Zonas de disponibilidade
   - Uma zona de disponibilidade (AZ) é um ou mais datacenters distintos com energia, rede e conectividade redundantes em uma região da AWS. As AZs proporcionam aos clientes a capacidade de operar aplicativos e bancos de dados de produção com alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. Todas as AZs em uma região da AWS estão interconectadas por redes de alta largura de banda e baixa latência, usando fibra metropolitana dedicada e totalmente redundante para proporcionar redes de alto throughput e baixa latência entre AZs. Todo o tráfego entre as AZs é criptografado. A performance da rede é suficiente para realizar a replicação síncrona entre as AZs. As AZs particionam aplicativos para facilitar a alta disponibilidade. Se um aplicativo for particionado em várias AZs, as empresas estarão melhor isoladas e protegidas contra problemas como quedas de energia, raios, tornados e terremotos, entre outros. As AZs são fisicamente separadas por uma distância significativa (vários quilômetros) das outras AZs, embora todas estejam a um raio de até 100 km entre si.
 
+![image](https://user-images.githubusercontent.com/56324728/231598767-24f4e404-0e13-4fb9-b934-608ecc321852.png)
+
+## AWS Local Zones
+
+O AWS Local Zones é uma espécie de implantação de infraestrutura posiciona a computação, armazenamento, banco de dados e outros produtos seletos da AWS perto do público em geral e dos centros industriais.
+
+![image](https://user-images.githubusercontent.com/56324728/231597824-4b915f17-96d9-44d6-a2fc-c0960f01b952.png)
+
 ## AWS Wavelength
 
 O AWS Wavelength permite aos desenvolvedores criar aplicativos com latências inferiores a 10 milissegundos para dispositivos móveis e usuários finais. Os desenvolvedores da AWS podem implantar seus aplicativos nas Zonas do Wavelength, implantações de infraestrutura da AWS que incorporam serviços de computação e armazenamento da AWS aos datacenters dos provedores de telecomunicações na borda das redes 5G e acessam facilmente a variedade de serviços da AWS na região. Isso permite que os desenvolvedores forneçam aplicativos que exigem latências inferiores a 10 milissegundos, como streaming de jogos e vídeos ao vivo, inferência de machine learning na borda e realidade aumentada e virtual (AR/VR). O AWS Wavelength leva os serviços da AWS até a borda da rede 5G, minimizando a latência de conexão de um dispositivo móvel a um aplicativo. O tráfego de aplicativos pode acessar servidores de aplicativos em execução nas Zonas do Wavelength sem sair da rede da operadora de celular. Isso reduz os saltos de rede extras para a Internet, que podem resultar em latências de mais de 100 milissegundos, impedindo que os clientes aproveitem ao máximo os avanços de largura de banda e latência do 5G.
+
+![image](https://user-images.githubusercontent.com/56324728/231598439-9001d379-dd67-44f5-a13b-c9b458f8ece9.png)
 
 ## AWS Outposts
 
