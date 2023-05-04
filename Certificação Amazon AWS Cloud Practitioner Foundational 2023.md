@@ -112,19 +112,23 @@ O AWS Outposts leva serviços, infraestrutura e modelos operacionais nativos da 
 
 ## AWS IAM
 
-O AWS Identity and Access Management (IAM) fornece controle de acesso refinado em toda a AWS. Com o IAM, é possível especificar quem pode acessar quais serviços e recursos e em que condições. Com as políticas do IAM, você gerencia permissões para seu quadro de funcionários e sistemas para garantir permissões com privilégios mínimos.
+O AWS Identity and Access Management (IAM) fornece controle de acesso refinado em toda a AWS. Com o IAM, é possível especificar quem pode acessar quais serviços e recursos e em que condições. Com as políticas do IAM, você gerencia permissões para seu quadro de funcionários e sistemas para garantir permissões com privilégios mínimos. O IAM é um serviço da AWS oferecido sem custo adicional.
 
-O IAM é um serviço da AWS oferecido sem custo adicional.
+![image](https://user-images.githubusercontent.com/56324728/236083086-2a329854-b6b6-4100-8ebe-17ea8bdb48b8.png)
 
 - Casos de uso
   - Com o IAM, você pode gerenciar as permissões da AWS para usuários e workloads do quadro de funcionários. Para usuários do quadro de funcionários, recomendamos que você use o AWS Single Sign-On (AWS SSO) para gerenciar o acesso a contas da AWS e permissões dentro dessas contas. O SSO da AWS torna mais fácil provisionar e gerenciar funções e políticas do IAM em sua organização da AWS. Para permissões de workloads, use funções e políticas do IAM e conceda apenas o acesso necessário para suas workloads.
 
-- Políticas e permissões no IAM
+![image](https://user-images.githubusercontent.com/56324728/236083299-c500e1bf-3fa6-4553-8be4-7f15d6ec6bbf.png)
+
+- Políticas (Policies) e permissões (Roles) no IAM
   - Você gerencia o acesso na AWS criando políticas e anexando-as às identidades do IAM (usuários, grupos de usuários ou funções) ou aos recursos da AWS. Uma política é um objeto na AWS que, quando associado a uma identidade ou um recurso, define suas permissões. A AWS avalia essas políticas quando uma entidade de segurança do IAM (usuário ou função) faz uma solicitação. As permissões nas políticas determinam se a solicitação será permitida ou negada. A maioria das políticas são armazenadas na AWS como documentos JSON. A AWS oferece suporte a seis tipos de políticas: políticas baseadas em identidade, políticas baseadas em recurso, limites de permissões, SCPs do Organizations, ACLs e políticas de sessão.
   - As políticas do IAM definem permissões para uma ação, independentemente do método usado para executar a operação. Por exemplo, se uma política permitir a ação **GetUser**, um usuário com essa política poderá obter informações de usuários no AWS Management Console, na AWS CLI ou na API da AWS. Ao criar um usuário do IAM, você pode optar por permitir acesso ao console ou programático. Se o acesso ao console for permitido, o usuário do IAM poderá fazer login no console usando um nome de usuário e senha. Ou se o acesso programático for permitido, o usuário poderá usar as chaves de acesso para trabalhar com a CLI ou a API.
 
+![image](https://user-images.githubusercontent.com/56324728/236083950-7975a5b4-7754-4bcc-bee5-d8d0913bd79b.png)
+
 - Como o IAM funciona?
-  - O IAM fornece a infraestrutura necessária para controlar a autenticação e autorização de sua Conta da AWS. A infraestrutura do IAM é ilustrada no diagrama a seguir:
+  - Com o AWS Identity and Access Management (IAM), você pode especificar quem ou o que pode acessar serviços e recursos na AWS, gerenciar permissões refinadas de maneira centralizada e analisar o acesso para refinar as permissões na AWS. O IAM fornece a infraestrutura necessária para controlar a autenticação e autorização de sua Conta da AWS. A infraestrutura do IAM é ilustrada no diagrama a seguir:
 
 ![image](https://user-images.githubusercontent.com/56324728/236070021-30598c50-de8d-4938-9db9-427124fc924c.png)
 
