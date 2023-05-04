@@ -139,6 +139,8 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
 - O que é virtualização?
   - É uma tecnologia que permite criar serviços de TI valiosos usando recursos que estão tradicionalmente vinculados a um determinado hardware. Com a virtualização, é possível usar a capacidade total de uma máquina física, distribuindo seus recursos entre muitos usuários ou ambientes. ([Saiba mais](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization))
 
+![image](https://user-images.githubusercontent.com/56324728/236084673-2ac0d16f-5085-4e62-a18b-7ea3e73d3eb2.png)
+
 - O que é o Amazon Elastic Compute Cloud (Amazon EC2)?
   - O Amazon Elastic Compute Cloud (Amazon EC2) é um serviço da web que fornece capacidade computacional redimensionável na nuvem. Ele foi projetado para facilitar a computação em escala na Web para os desenvolvedores.
 
@@ -160,6 +162,13 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
     - Os Savings Plans são um modelo de precificação flexível que oferece preços baixos no uso do EC2 e Fargate, em troca de um compromisso com uma quantidade consistente de uso (medido em USD/hora) por um período de 1 ou 3 anos.
   - Host dedicados
     - Um host dedicado é um servidor físico do EC2 dedicado exclusivamente ao seu uso. Os hosts dedicados ajudam você a reduzir custos, permitindo que você use licenças existentes de software vinculadas ao servidor, incluindo Windows Server, SQL Server e SUSE Linux Enterprise Server (sujeito aos termos das suas licenças), além de ajudar a cumprir requisitos de conformidade.
+
+- AWS EC2 Instance Types
+  - Para mais informações acesse a documentação oficial sobre [Amazon EC2 tipos de instâncias](https://aws.amazon.com/pt/ec2/instance-types/)
+
+![image](https://user-images.githubusercontent.com/56324728/236085054-c27a2689-50c1-4495-8f91-88923019c23e.png)
+![image](https://user-images.githubusercontent.com/56324728/236085127-0bbde861-055f-4ab3-829a-f2144a2c5bdf.png)
+![image](https://user-images.githubusercontent.com/56324728/236085254-82d0309c-a9f8-477f-bfde-9f83a0cd0b40.png)
 
 - Bônus:
   - Criando uma Instancia com User Data:
