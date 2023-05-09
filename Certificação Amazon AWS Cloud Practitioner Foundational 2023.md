@@ -188,6 +188,19 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
 - O que é o AWS Batch?
   - O AWS Batch é um conjunto de capacidades de gerenciamento de lote que permite a desenvolvedores, cientistas e engenheiros executar com facilidade e eficiência centenas de milhares de trabalhos de computação em lote na AWS. O AWS Batch provisiona dinamicamente a quantidade e o tipo ideais de recursos de computação (p. ex., recursos de computação otimizados para CPU ou memória) com base nos requisitos de volume e de recursos específicos dos trabalhos em lote enviados. Com o AWS Batch, não é necessário instalar e gerenciar clusters de servidores ou software de computação em lote, permitindo que você se concentre em analisar resultados e solucionar problemas. O AWS Batch planeja, programa e executa suas cargas de trabalho de computação em lote usando o Amazon EC2 (disponível com instâncias spot) e recursos de computação da AWS com o AWS Fargate ou Fargate Spot.
 
+- Como funciona?
+  - O AWS Batch permite que desenvolvedores, cientistas e engenheiros executem com eficiência milhares de tarefas de computação em lote e em ML (Machine Learning) enquanto otimizam recursos computacionais para que você possa se concentrar na análise de resultados e na solução de problemas. 
+
+- Serviços financeiros:</br>
+![image](https://user-images.githubusercontent.com/56324728/236971213-a9275953-d067-4984-9df5-ce1ad380067d.png)
+
+- Ciências biológicas:</br>
+![image](https://user-images.githubusercontent.com/56324728/236971025-ced1cb00-d151-40bb-8431-bddc979a88a2.png)
+
+- Mídia digital:</br>
+![image](https://user-images.githubusercontent.com/56324728/236971036-a2df69b3-93fb-4efa-bbd3-f9d7a202d390.png)
+
+
 - O que é computação em lote?
   - A computação em lotes é a execução de uma série de programas (“trabalhos”) em um ou mais computadores sem intervenção manual. Os parâmetros de entrada são predefinidos por meio de scripts, argumentos de linha de comando, arquivos de controle ou linguagem de controle de trabalhos. Um determinado trabalho em lotes pode depender da conclusão de trabalhos anteriores ou da disponibilidade de determinadas entradas. Com isso, a sequência e a programação de vários trabalhos passam a ser importantes, inviabilizando o processamento interativo.
 
