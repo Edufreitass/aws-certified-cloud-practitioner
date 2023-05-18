@@ -275,6 +275,44 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 - Qual é a diferença entre o Amazon ECS e o AWS Lambda?
   - O Amazon ECS é um serviço de gerenciamento de contêineres do Docker altamente escalável que permite executar e gerenciar aplicativos distribuídos em contêineres do Docker. O AWS Lambda é um serviço de computação de tarefas orientadas por eventos que executa seu código em resposta a “eventos”, como mudanças em dados, cliques em sites ou mensagens de outros Serviços da AWS sem necessidade de gerenciamento de qualquer infraestrutura de computação.
 
+- Como funciona?
+  - O Amazon Elastic Container Service (Amazon ECS) é um serviço de orquestração de contêineres totalmente gerenciado que simplifica a implantação, o gerenciamento e a escalabilidade de aplicações conteinerizadas. Basta descrever suas aplicação e os recursos necessários, e o Amazon ECS vai executar, monitorar e escalar a aplicação em opções flexíveis de computação com integrações automáticas com outros serviços de suporte da AWS de que sua aplicação precise. Execute operações do sistema, como criar regras personalizadas de escalabilidade e capacidade, além de observar e consultar dados de logs de aplicações e telemetria.
+
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/3092d74f-91c1-4108-8df9-552ecabbed3e)
+
+- Arquitetura da aplicação
+  - É possível seguir um dos dois modelos abaixo para executar contêineres:
+    - **Tipo de inicialização do Fargate**: esta é uma pay-as-you-go opção sem servidor. Você pode executar contêineres sem precisar gerenciar sua infraestrutura.
+    - **Tipo de inicialização do EC2**: configura e implanta instâncias do EC2 em seu cluster para executar seus contêineres.
+  - A forma como você arquiteta sua aplicação no Amazon ECS depende de vários fatores, sendo que o tipo de inicialização que você está usando é um importante diferencial. Oferecemos as seguintes orientações, divididas por tipo de inicialização, que podem auxiliar no processo.
+
+- Usar o tipo de inicialização do **Fargate**
+  - O tipo de inicialização do Fargate é adequado para as seguintes workloads:
+    - Workloads grandes que precisam de baixa sobrecarga operacional
+    - Pequenas workloads que têm explosão ocasional
+    - Workloads pequenas
+    - Workloads em batch
+  - Ao arquitetar sua aplicação para execução no Amazon ECS usando o AWS Fargate, você deve optar entre implantar vários contêineres na mesma definição de tarefa e implantar contêineres separadamente em várias definições de tarefa.
+  - Se as seguintes condições forem necessárias, recomendamos implantar vários contêineres na mesma definição de tarefa:
+    - Os contêineres compartilham um ciclo de vida comum (ou seja, eles são iniciados e encerrados juntos).
+    - Os contêineres precisam ser executados no mesmo host subjacente (ou seja, um contêiner faz referência ao outro na porta localhost).
+    - Você precisa que seus contêineres compartilhem recursos.
+    - Os contêineres compartilham volumes de dados.
+  - Se essas condições não forem necessárias, recomendamos implantar contêineres separadamente em várias definições de tarefa. A explicação é porque, fazendo isso, é possível escalá-los, provisioná-los e desprovisioná-los separadamente.
+
+- Uso do tipo de inicialização do **EC2**
+  - O tipo de inicialização do EC2 é adequado para workloads grandes que devem ter preço otimizado.
+  - Ao considerar como modelar definições de tarefa e serviços usando o tipo de inicialização do EC2, recomendamos que você considere quais processos devem ser executados juntos e como você pode dimensionar cada componente.
+  - Por exemplo, suponha que uma aplicação seja formada pelos seguintes componentes:
+    - Um serviço front-end que exiba informações em uma página da web
+    - Um serviço back-end que forneça APIs para o serviço front-end
+    - Um armazenamento físico de dados
+  - Neste exemplo, crie definições de tarefa que agrupem contêineres utilizados para um propósito em comum. Faça a separação dos componentes distintos em várias definições de tarefa separadas. O cluster de exemplo abaixo tem três instâncias de contêiner que executam três contêineres de serviços frontend, dois contêineres de serviço backend e um contêiner de serviço de armazenamento físico de dados.
+  - Você pode agrupar contêineres relacionados em uma definição de tarefa, como contêineres vinculados que devem ser executados juntos. Por exemplo, adicione um contêiner de transmissão de log ao serviço de fron-end e inclua-o na mesma definição de tarefa.
+  - Depois que tiver as definições de tarefa, você poderá criar serviços com base nelas para manter a disponibilidade das tarefas desejadas. Para obter mais informações, consulte Criar um serviço do Amazon ECS usando o console clássico. Nos seus serviços, você pode associar contêineres a balanceadores de carga do Elastic Load Balancing. Para obter mais informações, consulte Balanceamento de carga do serviço. Quando os requisitos da aplicação mudam, você pode atualizar os serviços para aumentar ou diminuir o número de tarefas desejadas. Outra opção é atualizar os serviços para implantar versões mais recentes dos contêineres nas suas tarefas. Para obter mais informações, consulte Atualizar um serviço usando o console.
+
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/b664a7ed-1232-40f7-aaa2-803a4e177bfb)
+
 ## Amazon Simple Storage Service (S3)
 
 - O que é o Amazon S3?
