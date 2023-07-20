@@ -313,6 +313,13 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 
 ![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/b664a7ed-1232-40f7-aaa2-803a4e177bfb)
 
+## Cloud Storage on AWS
+
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/b7da24d3-25f7-401a-b880-57b15543203d)
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/6974e2dd-5d47-429a-9e2f-27a9c594663c)
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/66454574-7044-41be-a4a3-dc6a568cd762)
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/dc2362b5-9b9a-48e0-b360-42976048251d)
+
 ## Amazon Simple Storage Service (S3)
 
 - O que é o Amazon S3?
