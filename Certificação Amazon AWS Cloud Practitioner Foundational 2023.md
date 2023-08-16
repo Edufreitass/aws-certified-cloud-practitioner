@@ -220,6 +220,21 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
 
 ![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/d66bfccf-687f-4c00-a7d5-2cb8df56996d)
 
+## Snapshots do Amazon EBS
+
+Os snapshots do Amazon Elastic Block Store (EBS) fornecem uma solução de proteção de dados simples e segura que foi projetada para proteger os dados do armazenamento em bloco, como os volumes do EBS, os volumes de inicialização e os dados em bloco on-premises. Os snapshots do EBS são uma cópia para um ponto no tempo dos dados e podem ser usados para habilitar a recuperação de desastres, migrar dados entre regiões e contas e aprimorar a conformidade do backup.
+
+É possível criar e gerenciar os snapshots do EBS por meio do Console de Gerenciamento da AWS, da AWS Command Line Interface (CLI) ou dos AWS SDKs. Os snapshots do Amazon EBS também se integram ao Amazon Data Lifecycle Manager (DLM), o que permite que você defina políticas que ajudam a automatizar o gerenciamento do ciclo de vida do snapshot. Os snapshots do EBS são armazenados de forma incremental, dessa forma, você é cobrado apenas pelos blocos alterados armazenados. 
+
+- Amazon EBS Snapshots
+  ![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/2f34a605-1052-4f3c-8e61-980a70fa5c76)
+
+- EBS Snapshots Archive
+  ![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/385b07e9-b4df-4b6d-8c47-910a2780efe9)
+
+- Recycle Bin
+  ![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/0d1d8aa5-6ea8-4e67-9b9a-6cd5447c73ce)
+
 ## Amazon Elastic Load Balancing
 
 - Como funciona
