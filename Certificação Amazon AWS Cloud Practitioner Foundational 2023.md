@@ -218,6 +218,8 @@ Para obter mais informações, acesse a [documentação oficial](https://docs.aw
 - Tipos de volumes do Amazon EBS
   - O Amazon EBS fornece vários tipos de volume que permitem otimizar o desempenho e o custo do armazenamento para uma ampla variedade de aplicativos. Esses tipos de volume estão divididos em duas categorias principais: armazenamento baseado em **SSD** para workloads transacionais, como bancos de dados, desktops virtuais e volumes de inicialização e armazenamento baseado em **HDD** para cargas de trabalho com taxa de transferência intensa, como MapReduce e processamento de logs.
 
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/d66bfccf-687f-4c00-a7d5-2cb8df56996d)
+
 ## Amazon Elastic Load Balancing
 
 - Como funciona
