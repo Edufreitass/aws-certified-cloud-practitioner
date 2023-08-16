@@ -346,6 +346,11 @@ O AWS Auto Scaling é uma forma rápida e fácil de otimizar o desempenho e os c
 - O que é o Amazon S3?
   - O Amazon S3 é um armazenamento de objetos criado para armazenar e recuperar qualquer quantidade de dados de qualquer local na Internet. Ele é um serviço de armazenamento simples que oferece uma infraestrutura de armazenamento de dados com escalabilidade infinita a um custo bastante reduzido.
 
+- Como funciona?
+  - O Amazon Simple Storage Service (Amazon S3) é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor. Clientes de todos os portes e setores podem armazenar e proteger qualquer quantidade de dados de praticamente qualquer caso de uso, como data lakes, aplicações nativas da nuvem e aplicações móveis. Com classes de armazenamento econômicas e recursos de gerenciamento fáceis de usar, você pode otimizar custos, organizar dados e configurar controles de acesso ajustados para atender a requisitos específicos de negócios, organizacionais e de conformidade.
+
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/51e28c97-0c02-4e7e-9c8f-73a417f39a65)
+
 - O que posso fazer com o Amazon S3?
   - O Amazon S3 disponibiliza uma interface de serviço da Web simples que pode ser usada para armazenar e recuperar qualquer quantidade de dados, a qualquer momento, de qualquer lugar na Web. Com esse web service, os desenvolvedores podem criar facilmente aplicativos que usam armazenamento na Internet. Como o Amazon S3 é altamente escalável e você só paga pelo que usa, é possível começar com um porte reduzido e expandir o aplicativo da forma desejada, sem comprometer o desempenho ou a confiabilidade.
   - O Amazon S3 também foi concebido para ser altamente flexível. Armazene qualquer tipo ou volume de dados que você necessite, leia a mesma porção de dados um milhão de vezes ou apenas para a recuperação de desastres em casos de emergência, crie uma aplicação FTP simples ou um aplicativo da Web avançado semelhante ao site de vendas da Amazon.com. O Amazon S3 permite que os desenvolvedores se concentrem na inovação e não em descobrir como armazenar dados.
