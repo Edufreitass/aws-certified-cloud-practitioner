@@ -256,6 +256,8 @@ O uso do Elastic Load Balancing com Auto Scaling permite criar aplicações alta
 - Classic Load Balancer
   - O Classic Load Balancer fornece balanceamento de carga básico em várias instâncias do Amazon EC2 e opera tanto no nível de solicitação quanto no nível de conexão. O Classic Load Balancer destina-se a aplicativos criados na rede EC2-Classic. Recomendamos o Application Load Balancer para tráfego de camada 7 e o Network Load Balancer para tráfego de camada 4 ao usar a Virtual Private Cloud (VPC).
 
+![image](https://github.com/Edufreitass/aws-certified-cloud-practitioner/assets/56324728/afbd86c1-4115-4d29-9e92-fd6daaeca55d)
+
 ## Amazon EC2 Auto Scaling
 
 Adicione ou remova capacidade de computação para atender às mudanças na demanda
